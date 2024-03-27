@@ -6,6 +6,8 @@ My submission written in C can be compiled with GCC, no additional flags are nee
 
 For the first half of the puzzle, I decided to write my submission in **C**. While this initially worked out, I quickly realized that the scalability of C to include **word numbers** wouldn't suffice for my second submission, so I switched to **Python**.
 
+**March 27th** - I decided to rewrite my part 2 implementation in C again for continuity reasons, although I did not initially use it in my original submission.
+
 Some of the optimizations I was able to introduce when transitioning includes:
 
 -   Storing the digits inside an array as oppose to only two variables. This cleaned up my loop quite a bit as obtaining the first and last digit only required me to get the first and last index of the array, as oppose to checking against two separate variables on each iteration.
