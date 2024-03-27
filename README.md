@@ -11,5 +11,9 @@ Some of the optimizations I was able to introduce when transitioning includes:
 -   Storing the digits inside an array as oppose to only two variables. This cleaned up my loop quite a bit as obtaining the first and last digit only required me to get the first and last index of the array, as oppose to checking against two separate variables on each iteration.
 -   The buffers I defined in C has a fixed limit, as allocating memory to store dynamically sized data was out of the scope for this challenge. In Python, arrays by default can grow dynamically, which leaves it less error prone to different input samples.
 
-`./1-trebuchet <input_file>`
-`py 1-trebuchet-pt2.py <input_file>`
+Command line arguments:
+
+```
+./1-trebuchet <input_file>
+py 1-trebuchet-pt2.py <input_file>
+```
