@@ -1,0 +1,2 @@
+# ignore windows compiled executables
+*.exe
